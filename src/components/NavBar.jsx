@@ -6,7 +6,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <nav>
-      <div className="mx-5 mt-5 sm:rounded-lg rounded-t-lg sticky top-0 z-50 py-3 
+      <div className="mx-5 sm:rounded-lg rounded-t-lg sticky top-0 z-50 py-3 
       backdrop-blur-lg border border-neutral-700/80 bg-gradient-to-l 
       from-zinc-700 to-zinc-800" onMouseEnter={()=>{setIsOpen(true)}} onMouseLeave={()=>{setIsOpen(false)}}>
         <div className="container px-4 mx-auto relative text-sm ">
