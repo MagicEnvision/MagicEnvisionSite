@@ -6,9 +6,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-neutral-100 h-full pt-4'>
+    <div className='bg-neutral-200 h-full pt-4'>
       <NavBar/>
-      <HeroSection/>
+      
+
     </div>
   )
 }
